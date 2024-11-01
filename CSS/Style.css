@@ -116,10 +116,6 @@ nav button:hover{
 #section4{
     display: flex;
     flex-direction: row;
-   /* background-image: url(/RESOURCES/bg-section-top-desktop-1.svg);
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   background-position: center; */
     align-items: center;
     padding: 70px 50px;
 }
@@ -246,6 +242,7 @@ footer{
     padding: 70px 80px;
     gap: 100px;
     background: #00252e fixed;
+    border-color:  #00252e;
 }
 .footer-left{
     display: flex;
@@ -334,4 +331,111 @@ footer{
     background-color: white;
     color: pink;
     border: 2px solid pink;
+}
+.footer-logo h1{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+
+@media screen and (min-width:750px) and (max-width:850px){
+    nav{
+        padding: 40px 50px;
+    }
+    nav img{
+        width: 150px;
+    }
+    #section1{
+        gap: 30px;
+        padding: 40px 0;
+    }
+    #section1 > h2 {
+        font-size: 2.2rem;
+    }
+    #section1 > p{
+        font-size: 1.3rem;
+        width: 45%;
+    }
+    #section1 > button {
+        padding: 10px 50px;
+        border-radius: 25px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    #section2 img {
+        width: 40%;
+        padding: 35px 0;
+    }
+    #section2 img {
+        width: 50%;
+    }
+    #section3{
+        padding: 40px 0;
+    }
+    .div1-sec3 img, .div2-sec3 img{
+        width: 35%;
+    }
+    .div1-sec3 h2, .div2-sec3 h2{
+        font-size: 3rem;
+    }
+    .div1-sec3 p, .div2-sec3 p{
+        font-size: 1.2rem;
+    }
+    #section4{
+        padding: 70px 90px;
+    }
+    #section4 img{    
+        width: 40%;
+        height: 30%;
+    }
+    .section4-left{
+        gap: 15px;
+    }
+    .section4-left h2{
+        font-size: 2.5rem;
+    }
+    .section4-left p{
+        width: 65%;
+        font-size: 1.4rem;
+    }
+    #section5{
+        padding: 70px 70px;
+        gap: 20%;
+    }
+    #section5 img{
+        width: 40%;
+        height: 30%;
+    }
+    .section5-right{
+        gap: 15px;
+    }
+    .section5-right h2{
+        font-size: 2.4rem;
+    }
+    .section5-right p{
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    #section6{
+        padding: 50px 90px;
+        gap: 25%;
+    }
+    #section6 img{
+        width: 40%;
+    }
+    .section6-left{
+        gap: 15px;
+    }
+    .section6-left h2{
+        font-size: 2.5rem;
+    }
+    .section6-left p{
+        font-size: 1.3rem;
+    }
+    footer{
+        padding: 70px 90px;
+        gap: 50px;
+        
+    }
 }
