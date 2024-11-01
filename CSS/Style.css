@@ -260,10 +260,9 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
-.footer-logo img{
+/* .footer-logo img{
     width: 200px;
-    
-}
+} */
 .footer-logo p{
     width: 22rem;
     font-size: 1.1rem;
@@ -435,7 +434,35 @@ footer{
     }
     footer{
         padding: 70px 90px;
-        gap: 50px;
+        gap: 20px;
         
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:450px){
+    nav{
+        padding: 40px 15px;
+    }
+    nav button{
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+    #section1{
+        gap: 20px;
+        padding: 10px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    #section1 > h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    #section1 > p{
+        font-size: 1.1rem;
+        width: 95%;
+    }
+    #section1 > button {
+        padding: 10px 30px;
+        font-weight: 700;
     }
 }
