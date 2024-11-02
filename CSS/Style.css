@@ -169,6 +169,8 @@ nav button:hover{
     text-align: left;
     font-size: 0.9rem;
 }
+
+
 #section6{
     display: flex;
     flex-direction: row;
@@ -197,6 +199,8 @@ nav button:hover{
     text-align: left;
     font-size: 0.9rem;
 }
+
+
 #section7{
     display: flex;
     flex-direction: column;
@@ -260,9 +264,6 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
-/* .footer-logo img{
-    width: 200px;
-} */
 .footer-logo p{
     width: 22rem;
     font-size: 1.1rem;
@@ -335,6 +336,9 @@ footer{
     color: white;
     font-weight: 900;
     font-size: 2.5rem;
+}
+.footer-image2{
+    display: none;
 }
 
 
@@ -437,6 +441,9 @@ footer{
         gap: 20px;
         
     }
+    .footer-image2{
+        display: none;
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:450px){
@@ -464,5 +471,178 @@ footer{
     #section1 > button {
         padding: 10px 30px;
         font-weight: 700;
+    }
+    #section2 img {
+        width: 60%;
+        padding: 50px 0;
+    }
+    #section3{
+        flex-direction: column;
+        gap: 50px;
+        padding: 40px 0;
+    }
+    .div1-sec3, .div2-sec3{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .div1-sec3 img, .div2-sec3 img{
+        width: 35%;
+    }
+    .div1-sec3 h2, .div2-sec3 h2{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .div1-sec3 p, .div2-sec3 p{
+        font-size: 0.7rem;
+    }
+    #section4{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 50px;
+        gap: 20px;
+    }
+    #section4 img{
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 50%;
+    }
+    .section4-left{
+       align-items: center;
+       justify-content: center;
+        gap: 20px;
+    }
+    .section4-left h2{
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+    .section4-left p{
+        width: 85%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    #section5{
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 150px;
+        justify-content: center;
+        /* gap: 85%; */
+    }
+    #section5 img{
+        justify-content: center;
+        width: 200%;
+        height: 70%;
+    }
+    .section5-right{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 0;
+    }
+    .section5-right h2{
+        font-size: 1.5rem;
+        width: 200%;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+    .section5-right p{
+        text-align: center;
+        font-size: 1rem;
+        width: 150%;
+    }
+    #section6{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 150px;
+        justify-content: center;
+        /* gap: 45%; */
+    }
+    #section6 img{
+        justify-content: center;
+        width: 200%;
+        height: 70%;
+    }
+    .section6-left{
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 40px 0;
+    }
+    .section6-left h2{
+        font-size: 2.5rem;
+        width: 200%;
+        text-align: center;
+        font-weight: 700;
+    }
+    .section6-left p{
+        text-align: center;
+        font-size: 1rem;
+        width: 250%;
+    }
+    #section7{
+        padding: 40px 0;
+        gap: 40px;
+    }
+    #section7 h2{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    #section7 button{
+        padding: 15px 30px;
+    }
+    .footer-image{
+        display: none;
+        margin: 200px 0 0;
+    }
+    .footer-image2{
+        display: block;
+        margin: 200px 0 auto;
+    }
+    .footer-image2 img{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 70px 90px;
+        gap: 50px;
+    }
+    .footer-logo p{
+        font-size: 1rem;
+        color: white;
+    }
+    .footer-img1, .footer-img2{
+        gap: 15px;
+    }
+    .footer-img1 p, .footer-img2 p{
+        font-size: 1rem;
+    }
+    .footer-right{
+        gap: 10px;
+    }
+    .footer-right h2{
+        font-size: 1.5rem;
+    }
+    .footer-right p{
+        font-size: 1rem;
+        color: white; 
+    }
+    .footer-right1{
+        gap: 15px;
+    }
+    .footer-right1 input{
+        padding: 8px 20px;
+        background-color: white;
+        border: none;
+    }
+    .footer-right1 button{
+        padding: 8px 15px;
+    }
+    .footer-logo h1{
+        font-size: 2rem;
     }
 }
