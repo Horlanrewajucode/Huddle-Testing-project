@@ -113,17 +113,20 @@ nav button:hover{
 }
 
 /* section four styling */
-#section4{
+.new-section4{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 70px 50px;
+    padding: 0 50px;
+    background-color: #F6FBFF;
 }
-#section4 img{
-    display: flex;
-    justify-content: stretch;
+.new-section4 img{
     width: 20%;
     height: 30%;
+}
+#section4{
+    display: flex;
+    flex-direction: column;
 }
 .section4-left{
     display: flex;
@@ -170,16 +173,20 @@ nav button:hover{
     font-size: 0.9rem;
 }
 
-
-#section6{
+.new-section6{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 50px 150px;
     justify-content: space-between;
     gap: 45%;
+    background-color: #F6FBFF;
 }
-#section6 img{
+#section6{
+    display: flex;
+    flex-direction: column;
+}
+.new-section6 img{
     display: flex;
     justify-content: stretch;
     width: 20%;
@@ -342,6 +349,8 @@ footer{
 }
 
 
+
+/* Tablets screen  */
 @media screen and (min-width:750px) and (max-width:850px){
     nav{
         padding: 40px 50px;
@@ -385,12 +394,20 @@ footer{
     .div1-sec3 p, .div2-sec3 p{
         font-size: 1.2rem;
     }
-    #section4{
-        padding: 70px 90px;
+    .new-section4{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 70px 50px;
+        background-color: #F6FBFF;
     }
-    #section4 img{    
-        width: 40%;
+    .new-section4 img{
+        width: 20%;
         height: 30%;
+    }
+    #section4{
+        display: flex;
+        flex-direction: column;
     }
     .section4-left{
         gap: 15px;
@@ -420,12 +437,27 @@ footer{
         text-align: left;
         font-size: 0.9rem;
     }
-    #section6{
-        padding: 50px 90px;
-        gap: 25%;
+    .new-section6{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 80px;
+        justify-content: space-between;
+        gap: 45%;
+        background-color: #F6FBFF;
     }
-    #section6 img{
+    #section6{
+        display: flex;
+        flex-direction: column;
+    }
+    .new-section6 img{
+        display: flex;
+        justify-content: stretch;
         width: 40%;
+        height: 30%;
+    }
+    #section6{
+        gap: 25%;
     }
     .section6-left{
         gap: 15px;
@@ -434,10 +466,11 @@ footer{
         font-size: 2.5rem;
     }
     .section6-left p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        width: 280%;
     }
     footer{
-        padding: 70px 90px;
+        padding: 70px 20px;
         gap: 20px;
         
     }
@@ -446,6 +479,8 @@ footer{
     }
 }
 
+
+/* Mobile Screen  */
 @media screen and (min-width:300px) and (max-width:450px){
     nav{
         padding: 40px 15px;
@@ -608,7 +643,7 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        padding: 70px 90px;
+        padding: 70px 120px;
         gap: 50px;
     }
     .footer-logo p{
